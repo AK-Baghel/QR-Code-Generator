@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(16, 16, 41);
+}
+.box{
+    background-color: rgb(31, 104, 117);
+    width: 25rem;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+.social a{
+    color: white;
+    text-decoration: none;
+}
+.qr-header h1{
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    text-transform:uppercase ;
+}
+.qr-header input{
+    width: 100%;
+    margin-block: 12px;
+}
+.qr-header input,select{
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid aquamarine;
+}
+.qr-header label{
+    color: white;
+    font-size: 1.5rem;
+}
+.qr-header div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.qr-footer{
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.qr-footer a{
+    text-align: center;
+    width: 100%;
+    color: rgb(31, 104, 117);
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 1px solid aquamarine;
+    border-radius: 6px;
+    padding:7px 8px;
+}
+#generateBtn:hover {
+    background-color: greenyellow;
+    color: rgb(16, 16, 41);
+}
+#downloadBtn:hover{
+    background-color: greenyellow;
+    color: rgb(16, 16, 41);
+}
