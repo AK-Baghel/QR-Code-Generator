@@ -23,13 +23,20 @@ body{
 .social{
     display: flex;
     justify-content: space-between;
-    gap: 5rem;
+    align-items: center;
+    gap: 3rem;
     color: white;
     margin-bottom: 10px;
 }
 .social a{
     color: white;
     text-decoration: none;
+}
+.fa{
+    font-size:2.5rem;
+}
+.fa:hover{
+    color: aqua;
 }
 .qr-header h1{
     text-align: center;
@@ -82,4 +89,17 @@ body{
 #downloadBtn:hover{
     background-color: greenyellow;
     color: rgb(16, 16, 41);
+}
+.qr-body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.qr-body img{
+    min-width: 70%;
+    max-width: 70%;
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10px;
 }
